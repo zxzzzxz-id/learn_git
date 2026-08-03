@@ -1,4 +1,4 @@
-﻿/* USER CODE BEGIN Header */
+/* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file           : main.c
@@ -38,7 +38,7 @@
 #include "buzzer.h"   /* 蜂鸣器驱动的函数声明 */
 #include "led.h"      /* LED 驱动的函数声明 */
 
-// 在这里替换成#include user_beep.h
+#include "user_beep.h"
 
 /* USER CODE END Includes */
 
