@@ -1,4 +1,4 @@
-﻿/* USER CODE BEGIN Header */
+/* USER CODE BEGIN Header */
 /**
   ******************************************************************************
   * @file           : main.c
@@ -38,7 +38,7 @@
 #include "buzzer.h"   /* 蜂鸣器驱动的函数声明 */
 #include "led.h"      /* LED 驱动的函数声明 */
 
-// 在这里替换成#include user_beep.h
+#include "user_beep.h"
 
 /* USER CODE END Includes */
 
@@ -52,7 +52,7 @@
 /* #define 是宏定义：编译前会把名字替换成后面的内容 */
 #define LED_COUNT   4U    /* 板载 LED 数量，U 表示 unsigned 无符号数 */
 #define BLINK_TIMES 5U    /* 每颗 LED 闪烁次数 */
-#define DELAY_MS    400U  /* LED 亮/灭持续时间，单位毫秒 */
+#define DELAY_MS    500U  /* LED 亮/灭持续时间，单位毫秒 */
 #define BEEP_MS     120U  /* 蜂鸣器响一声的时长 */
 /* USER CODE END PD */
 
@@ -135,7 +135,7 @@ int main(void)
     /* while 循环：条件成立就反复执行 {} 里的代码 */
     while (current_led <= led_count)
     {
-      blink_led(current_led, blink_times, delay_ms);
+      blink_led(current_led, current_led, delay_ms);
       current_led++; /* 等价于 current_led = current_led + 1 */
     }
 

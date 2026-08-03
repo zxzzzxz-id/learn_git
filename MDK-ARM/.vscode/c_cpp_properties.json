@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "keil_proj_demo_keil_proj_demo",
+            "name": "keil_proj_demo",
             "includePath": [
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\Core\\Inc",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\Drivers\\STM32F4xx_HAL_Driver\\Inc",
@@ -10,14 +10,11 @@
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\Drivers\\CMSIS\\Include",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\hardware\\inc",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\user\\inc",
-                "D:\\Keil5\\ARM\\ARMCC\\include",
-                "D:\\Keil5\\ARM\\ARMCC\\include\\rw",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\MDK-ARM",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\Core\\Src",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\Drivers\\STM32F4xx_HAL_Driver\\Src",
                 "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\hardware\\src",
-                "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\user\\src",
-                "${default}"
+                "c:\\Users\\Administrator\\Desktop\\2026培训\\keil_proj_demo-8.6-8.8final\\user\\src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
@@ -81,6 +78,7 @@
                 "__ror(x,y)=0U",
                 "__schedule_barrier()=",
                 "__semihost(x,y)=0",
+                "__sev()=",
                 "__sqrt(x)=0.0",
                 "__sqrtf(x)=0.0f",
                 "__ssat(x,y)=0",
